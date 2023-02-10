@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.addMovie {
+  background-color: lightgrey;
+  width: 500px;
+  height: 200px;
+  left: 450px;
+  border-radius: 30px;
+  position: relative;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.addMovie:hover {
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  background-color: white;
+}
+
+.button-container {
+  margin: 80px;
+}
